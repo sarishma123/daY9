@@ -1,0 +1,38 @@
+content{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px grey;
+    width: 200px;
+    height: 120px;
+    background-color: rgb(188, 200, 200);
+    text-align: center;
+    margin: 50px auto;
+    gap: 12px;
+}
+
+h1{
+    background-color: rgb(69, 73, 73);
+    box-shadow: 2px 2px 5px gray;
+    font-size: 20px;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+h1:hover{
+    background-color: rgb(79, 85, 85);
+    box-shadow: 2px 2px 5px grey;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    color: rgb(114, 105, 94);
+    border-radius: 2px;
+}
